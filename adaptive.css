@@ -1,0 +1,260 @@
+@media (min-width: 329px) {
+  /*Меняем кнопки Book Demo и Get Started*/
+  .column-button-two {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .column-button_button {
+    margin: 0;
+    width: 130px;
+  }
+  .column-button_submit {
+    width: 130px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 528px) {
+  .cards_column {
+    width: 65%;
+    margin: auto;
+  }
+}
+@media (min-width: 568px) {
+  .main-title__two-button {
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+  .email {
+    width: 85%;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .button-subbcribe {
+    width: 25%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .cards_column {
+    flex-wrap: nowrap;
+  }
+  .fab {
+    padding: 0;
+  }
+  .main-title {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-title__button{
+    width: 30%;
+  }
+  .advanced_position {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  }
+  .advanced_position_white {
+    display: flex;
+    height: 140px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .advanced-column {
+    height: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .subtitle-about-table{
+    margin-left:0;
+    margin-right: 0;
+  }
+  .subtitle_about {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-links {
+    margin-left: 25px;
+  }
+  .cards_column {
+    height: 170px;
+  }
+  .background-image {
+    padding: 0 25px;
+  }
+  .column-about {
+    padding: 0 25px;
+  }
+  .column-button_submit{
+    height: 50px;
+  }
+}
+
+@media (min-width: 635px) {
+  .title {
+    font-size: 35px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .main-title {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .advanced_position {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .subtitle-text {
+    font-size: 20px;
+  }
+  .subtitle-about {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+  }
+  .subtitle_about {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 35px;
+  }
+  .about-links {
+    margin-left: 70px;
+    font-size: 17px;
+  }
+  .cards_column {
+    height: 170px;
+  }
+  .background-image {
+    padding: 0 25px;
+  }
+  .column-about {
+    padding: 0 25px;
+  }
+}
+@media (min-width: 672px){
+  .title{
+    font-size: 40px;
+  }
+  .main-title{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .main-title__button{
+    font-size: 17px;
+    width: 35%;
+
+  }
+  .text{
+    font-size: 20px;
+  }
+  .advanced_position_white{
+    height: 190px;
+  }
+  .apps__links{
+    font-size: 23px;
+  }
+  .title_apps{
+    margin-left: 0;
+  }
+  .background-image__text{
+    display: flex;
+    height: inherit;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .advanced_circle{
+    width: 100px;
+    height: 100px;
+  }
+.far,
+.fas{
+  font-size: 40px;
+}
+.subtitle-about{
+  font-size: 20px;
+}
+.slides__text{
+  font-size: 20px;
+}
+}
+@media (min-width:768px){
+  .main-title{
+    display:flex;
+  }
+  .image-main{
+    display: flex;
+    align-items: center;
+  }
+  .main-title__button{
+    width: 140px;
+  }
+  .subtitle_about-under{
+    display: block;
+  }
+  .block-email{
+    display: block;
+  }
+  .subtitle_title{
+    display: block;
+  }
+  .main-title{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .advanced_position{
+    margin-right: 0;
+    width: 45%;
+    height: auto;
+  }
+  .all-main-advanced{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .advanced_position-width{
+    width: 100%;
+    margin-top: 0px;
+    height: auto;
+  }
+  .subtitle-text{
+    font-size: 20px;
+  }
+  .about-links{
+    font-size: 20px;
+  }
+  .subtitle_about-under {
+    display: flex;
+    flex-wrap: wrap;
+}.email{
+  width: 50%;
+}
+.main-title__two-button{
+  justify-content: center;
+}
+.column-about{
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+}
+.advanced-about{
+  display: flex;
+}
+}
