@@ -151,10 +151,19 @@
 @media (min-width: 672px){
   .title{
     font-size: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .headeing-first{
+    display:inline-block;
+    margin-left: 60px;
+  }
+  .burger-menu__toggle{
+    right: 60px;
   }
   .main-title{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .main-title__button{
     font-size: 17px;
@@ -163,6 +172,8 @@
   }
   .text{
     font-size: 20px;
+     margin-left: 60px;
+    margin-right: 60px;
   }
   .advanced_position_white{
     height: 190px;
