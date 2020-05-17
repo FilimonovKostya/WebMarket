@@ -31,6 +31,11 @@
   margin-top: 50px;
 }
 
+  .slide-text-block{
+    width: 100%;
+    height: auto;
+  }
+
 .slide-first {
   background-image: url(images/emp1.jpg);
   background-repeat: no-repeat;

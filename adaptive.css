@@ -1,4 +1,4 @@
-@media (min-width: 329px) {
+@media (min-width: 320px) {
   /*Меняем кнопки Book Demo и Get Started*/
   .column-button-two {
     flex-direction: row;
@@ -55,37 +55,12 @@
   .main-title__button{
     width: 30%;
   }
-  .advanced_position {
-    margin-left: 25px;
-    margin-right: 25px;
-    height: 260px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-  }
-  .advanced_position_white {
-    display: flex;
-    height: 140px;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .advanced-column {
-    height: auto;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
+  
   .subtitle-about-table{
     margin-left:0;
     margin-right: 0;
   }
-  .subtitle_about {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
+  
   .about-links {
     margin-left: 25px;
   }
@@ -114,10 +89,7 @@
     padding-left: 70px;
     padding-right: 70px;
   }
-  .advanced_position {
-    margin-left: 70px;
-    margin-right: 70px;
-  }
+ 
   .subtitle {
     font-size: 25px;
   }
@@ -125,8 +97,7 @@
     font-size: 20px;
   }
   .subtitle-about {
-    margin-left: 70px;
-    margin-right: 70px;
+    
     font-size: 20px;
   }
   .subtitle_about {
@@ -181,7 +152,7 @@
     margin-right: 60px;
   }
   .advanced_position_white{
-    height: 190px;
+    height: auto;
   }
   .apps__links{
     font-size: 23px;
@@ -260,7 +231,7 @@
     width: 65%;
   }
   .column-text-first-parag {
-    width: 35%;
+    width: 100%;
    
 }
   .main-title__button{
@@ -321,5 +292,45 @@
 }
 .advanced-about{
   display: flex;
+  flex-direction: column;
 }
+}
+
+@media (min-width:900px){
+  .advanced_position{
+    width: 100%;
+  }
+}
+@media (min-width:1024px){
+  .all-main-advanced{
+    flex-wrap: nowrap;
+  }
+  .advanced_position-width{
+    margin-top: 40px;
+  }
+  .image-main{
+    width: 100%;
+  }
+  .burger-menu__btn{
+    width: 30%;
+  }
+  .burger-menu__button{
+    text-align: center;
+  }
+  .column-text-first-parag{
+    text-align: center;
+  }
+  .subtitle_about-under{
+    width: 100%;
+    justify-content: center;
+  }
+  .advanced_position{
+    width: 47%;
+  }
+  .advanced_position{
+    margin: 10px 10px;
+  }
+  .wrapper-slider{
+    width: 50%;
+  }
 }
